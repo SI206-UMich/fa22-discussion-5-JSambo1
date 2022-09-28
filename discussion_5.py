@@ -73,16 +73,31 @@ class TestAllMethods(unittest.TestCase):
 
 	## Check to see whether you can add an item to the warehouse
 	def test_add_item(self):
+		self.item1 = Item("Beer", 6, 20)
+		self.item2 = Item("Cider", 5, 25)
+		self.item3 = Item("Water", 1, 100)
+		self.item4 = Item("Fanta", 2, 60)
+		self.item5 = Item("CocaCola", 3, 40)
 		pass
 
 
 	## Check to see whether warehouse correctly returns the item with the most stock
 	def test_warehouse_max_stocks(self):
+		self.item1 = Item("Beer", 6, 20)
+		self.item2 = Item("Cider", 5, 25)
+		self.item3 = Item("Water", 1, 100)
+		self.item4 = Item("Fanta", 2, 60)
+		self.item5 = Item("CocaCola", 3, 40)
 		pass
 
 
 	# Check to see whether the warehouse correctly return the item with the highest price
 	def test_warehouse_max_price(self):
+		self.item1 = Item("Beer", 6, 20)
+		self.item2 = Item("Cider", 5, 25)
+		self.item3 = Item("Water", 1, 100)
+		self.item4 = Item("Fanta", 2, 60)
+		self.item5 = Item("CocaCola", 3, 40)
 		pass
 		
 
