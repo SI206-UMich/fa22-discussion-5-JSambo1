@@ -63,6 +63,7 @@ class TestAllMethods(unittest.TestCase):
 
 	## Check to see whether count_a works
 	def test_count_a(self):
+		self.item1 = Item("Beer")
 		pass
 
 
